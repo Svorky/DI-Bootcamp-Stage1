@@ -1,0 +1,40 @@
+body {
+    background-color: bisque;
+}
+
+#wrap {
+    background-color: aliceblue;
+    margin: 0 auto;
+    width: 600px;
+}
+
+h1 {
+    border-style: dashed;
+    margin: 0;
+    text-align: center;
+    font-style: italic;
+}
+
+p {
+    padding: 0 16px;
+}
+
+section {
+    margin: 0;
+    border-style: dashed;
+}
+
+ul {
+    text-align: center;
+    list-style-type: none;
+    font-style: italic;
+  }
+
+li::first-letter {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.copyright {
+    text-align: center;
+}
