@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(69, 69, 203);
+}
+
+#wrap {
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#nav {
+    background-color: aliceblue;
+    min-width: 200px;
+}
+
+#nav ul{
+    text-align: left;
+    margin-left: 20px;
+}
+
+#content {
+    background-color: aqua;
+    padding: 0 20px 5px 20px;
+}
+
+#content ul {
+    text-align: center;
+    list-style-type: none;
+    font-style: italic;
+}
+
+.copyright {
+    text-align: center;
+    padding-left: 185px;
+}

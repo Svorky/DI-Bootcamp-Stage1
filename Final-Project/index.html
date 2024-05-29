@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tech Challenge || Materialize CSS</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <div class="navbar-fixed">
+    <nav class="grey darken-4">
+      <div class="nav-wrapper">
+        <input type="checkbox" class="menu" id="menu">
+        <label for="menu" class="menu-icon"><i class="material-icons">menu</i></label>
+        <ul id="links">
+          <li><a href="#home" onclick="closeNav()">Home</a></li>
+          <li><a href="#bio" onclick="closeNav()">Biography</a></li>
+          <li><a href="#career" onclick="closeNav()">Career</a></li>
+          <li><a href="#awards" onclick="closeNav()">Awards</a></li>
+        </ul>
+    </nav>
+  </div>
+
+  <main class="container">
+    <div class="row">
+      <article class="col s12 title-image" id="home">
+        <div class="text">
+          <h2 class="image-title">Steven
+            Spielberg</h2>
+        </div>
+      </article>
+    </div>
+    <div class="row">
+      <article class="col bio" id="bio">
+        <header>
+          <h2>Biography</h2>
+        </header>
+        <p>Steven Allan Spielberg is an American film director, producer and screenwriter. A major figure of the New Hollywood era and pioneer of the modern blockbuster, he is the most commercially successful director in history. He is the recipient of many accolades, including three Academy Awards, two BAFTA Awards, and four Directors Guild of America Awards, as well as the AFI Life Achievement Award in 1995, the Kennedy Center Honor in 2006, the Cecil B. DeMille Award in 2009 and the Presidential Medal of Freedom in 2015. Seven of his films have been inducted into the National Film Registry by the Library of Congress as "culturally, historically or aesthetically significant".</p>
+      </article>
+    </div>
+    <div class="row">
+      <article class="col s12 career" id="career">
+        <header>
+          <h2>Career</h2>
+        </header>
+        <h4>1969–1974: Early film and television work</h4>
+        <p>Spielberg's professional debut was directing segments for the 1969 pilot episode of Night Gallery. Based on the strength of his work, Universal signed Spielberg to do four television films.[72] The first was Duel (1971). More TV films followed: Something Evil (1972) and Savage (1973). In 1974, Spielberg made his theatrical debut, The Sugarland Express, based on a true story about a married couple on the run, desperate to regain custody of their baby from foster parents.</p>
+        <h4>1975-1980: Breakthrough</h4>
+        <p>Producers Richard D. Zanuck and David Brown took a chance with Spielberg, and gave him the opportunity to direct Jaws (1975). Jaws was the first movie shot on open ocean, so shooting proved difficult, and the mechanical shark malfunctioned. The filming schedule overran by a hundred days, and Universal threatened to cancel production. Against expectations, Jaws was a success but Spielberg declined an offer to make Jaws 2.</p>
+        <p>Spielberg's first film as an executive producer was the directorial debut of Robert Zemeckis, I Wanna Hold Your Hand (1978). His next directorial work was 1941 (1979), an action-comedy written by Zemeckis and Bob Gale about Californians preparing for a Japanese invasion after the attack on Pearl Harbor.</p>
+        <h4>1981–1990: Stardom</h4>
+        <p>Spielberg produced Used Cars (Zemeckis, 1980), which was a critical but not a commercial success. He directed Raiders of the Lost Ark (1981), with a screenplay by Lawrence Kasdan based on a story by George Lucas and Philip Kaufman.</p>
+        <p>In 1982, Spielberg returned to science fiction with E.T. the Extra-Terrestrial. E.T. grossed $700 million worldwide. It won four Academy Awards: Best Original Score (John Williams), Best Sound (Robert Knudson, Robert Glass, Don Digirolamo, and Gene Cantamessa), Best Sound Editing (Charles L. Campbell and Ben Burtt), and Best Visual Effects (Carlo Rambaldi, Dennis Muren, and Kenneth F. Smith).</p>
+        <p>His next directorial work was the Raiders of the Lost Ark prequel Indiana Jones and the Temple of Doom (1984). Working again with Lucas and Ford, the film was shot in the United States, Sri Lanka and China.</p>
+        <h4>1991–1998: Established career</h4>
+        <p> In 1993, Spielberg served as an executive producer for the NBC science fiction series seaQuest DSV; the show was not a hit. In 1994, he found success producing the medical drama ER.</p>
+        <p>In 1993, Spielberg returned to the adventure genre with Jurassic Park, based on the 1990 novel of the same name by Michael Crichton. The film's dominance during its theatrical run, as well as Spielberg's $250 million salary, made him self-conscious of his own success.</p>
+        <p>Also in 1993, Spielberg directed Schindler's List, about Oskar Schindler, a businessman who helped save 1,100 Jews from the Holocaust. Spielberg waited ten years to make the film as he did not feel "mature" enough. The film was a commercial success, and Spielberg used his percentage of profits to start the Shoah Foundation, a non-profit organization that archives testimonies of Holocaust survivors. Schindler's List won seven Academy Awards, including Best Picture, and Spielberg's first as Best Director. It also won seven BAFTAs, and three Golden Globes. According to the American Film Institute, Schindler's List is one of the 100 best American films ever made.</p>
+        <p>Spielberg's 1998 release was World War II epic Saving Private Ryan, about a group of U.S. soldiers led by Captain Miller (Tom Hanks) sent to bring home a paratrooper whose three older brothers were killed in the same twenty-four hours of the Normandy landing. The film grossed a successful $481 million worldwide, and Spielberg won a second Academy Award for Best Director.</p>
+        <h4>1999–2012: Career expansion</h4>
+        <p>In 2001, Spielberg and Tom Hanks produced Band of Brothers, a ten-part HBO miniseries based on Stephen Ambrose's book of the same name.</p>
+        <p>Spielberg followed A.I. with the sci-fi neo-noir Minority Report (2002), based on Philip K. Dick's the short story of the same name about a group of investigators who try to prevent crimes before they are committed.</p>
+        <p>Spielberg worked with Hanks, Catherine Zeta-Jones and Stanley Tucci in 2004's The Terminal, a lighthearted comedy about an Eastern European man stranded in an airport. The film was praised for its production design and was a commercial success</p>
+        <p>Spielberg's Munich (2005) is about the Israeli government's secret retaliation after eleven Israeli Olympic athletes were kidnapped and murdered in the 1972 Munich massacre.</p>
+        <h4>2013–present: Recent work</h4>
+        <p>He directed 2015's Bridge of Spies, a Cold War thriller based on the 1960 U-2 incident, and focusing on James B. Donovan's negotiations with the Soviets for the release of pilot Gary Powers after his aircraft was shot down over Soviet territory.</p>
+        <p>In 2016, Spielberg made The BFG, an adaptation of Roald Dahl's children's book, starring newcomer Ruby Barnhill, and Mark Rylance as the titular Big Friendly Giant.</p>
+        <p>Spielberg directed the science fiction Ready Player One (2018), adapted from the novel of the same name by Ernest Cline.</p>
+        <p>In 2019, Spielberg filmed West Side Story, an adaptation of the musical of the same name.</p>
+      </article>
+    </div>
+    <div class="row">
+      <article class="awards" id="awards">
+        <header>
+          <h2>Awards</h2>
+        </header>
+        <div class="card medium col s12 m6 l3 hoverable">
+          <figure class="card-image waves-effect waves-block waves-light">
+            <img src="https://upload.wikimedia.org/wikipedia/en/7/7f/Academy_Award_trophy.png" class="activator cards-image">
+          </figure>
+          <div class="card-content">
+            <span class="card-title activator">Oscar<i class="material-icons right">more_vert</i></span>
+            <h3 class="center-align ">3</h3>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Oscar Films<i class="material-icons right">close</i></span>
+            <ul class="collection">
+              <li class="collection-item">Schindler's List (1993) (2)</li>
+              <li class="collection-item">Saving Private Ryan (1998)</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col s12 m6 l3 card medium hoverable">
+          <figure class="card-image waves-effect waves-block waves-light">
+            <img src="https://upload.wikimedia.org/wikipedia/en/6/64/British_Academy_Film_Awards_logo.svg" class="activator cards-image">
+          </figure>
+          <div class="card-content">
+            <span class="card-title activator">BAFTA<i class="material-icons right">more_vert</i></span>
+            <h3 class="center-align">2</h3>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">BAFTA Films<i class="material-icons right">close</i></span>
+            <ul class="collection">
+              <li class="collection-item">Schindler's List (1993) (2)</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col s12 m6 l3 card medium hoverable">
+          <figure class="card-image waves-effect waves-block waves-light">
+            <img src="https://www.emmys.com/sites/all/themes/emmys/public/images/emmy_statuette_footer.png" class="activator cards-image ">
+          </figure>
+          <div class="card-content">
+            <span class="card-title activator">Emmy<i class="material-icons right">more_vert</i></span>
+            <h3 class="center-align">4</h3>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Emmy Films<i class="material-icons right">close</i></span>
+            <ul class="collection">
+              <li class="collection-item">A Pinky & the Brain Christmas</li>
+              <li class="collection-item">Band of Brothers</li>
+              <li class="collection-item">Taken</li>
+              <li class="collection-item">The Pacific</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col s12 m6 l3 card medium hoverable">
+          <figure class="card-image waves-effect waves-block waves-light">
+            <img src="https://i.imgur.com/D5lMruL.png" class="activator cards-image ">
+          </figure>
+          <div class="card-content">
+            <span class="card-title activator">Golden Globe<i class="material-icons right">more_vert</i></span>
+            <h3 class="center-align">9</h3>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Golden Globe Films<i class="material-icons right">close</i></span>
+            <ul class="collection">
+              <li class="collection-item">E.T. the Extra-Terrestrial</li>
+              <li class="collection-item">Schindler's List (2)</li>
+              <li class="collection-item">Saving Private Ryan (2)</li>
+              <li class="collection-item">The Adventures of Tintin</li>
+              <li class="collection-item">West Side Story</li>
+              <li class="collection-item">The Fabelmans</li>
+            </ul>
+          </div>
+        </div>
+      </article>
+    </div>
+  </main>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
